@@ -8,4 +8,5 @@ node_js:
 - "iojs-3"
 - "4"
 - "5"
+before_script: "which npm"
 script: "npm test"
