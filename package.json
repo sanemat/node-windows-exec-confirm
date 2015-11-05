@@ -1,1 +1,9 @@
-{}
+{
+  "dependencies": {
+    "touch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "npm run touch1",
+    "touch1": "touch foo.txt"
+  }
+}
