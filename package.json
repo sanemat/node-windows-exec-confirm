@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "touch": "^1.0.0"
+    "touch": "^1.0.0",
+    "which": "^1.2.0"
   },
   "scripts": {
     "test": "npm run touch1 --verbose && node test.js",
