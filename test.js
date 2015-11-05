@@ -1,2 +1,5 @@
 var spawn = require('child_process').spawn;
-spawn('npm', ['run', 'touch1'], { stdio: 'inherit' });
+var touch1 = spawn('npm', ['run', 'touch1'], { stdio: 'inherit' });
+touch1.on('error', function(err) {
+  console.log(err);
+});
