@@ -3,7 +3,7 @@
     "touch": "^1.0.0"
   },
   "scripts": {
-    "test": "npm run touch1 && node test.js",
+    "test": "npm run touch1 --verbose && node test.js",
     "touch1": "touch foo.txt"
   }
 }
