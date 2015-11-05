@@ -27,7 +27,7 @@ build: off
 
 # test
 test_script:
-- node test.js
+- npm test
 
 # deploy
 deploy: off

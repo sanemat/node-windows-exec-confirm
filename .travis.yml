@@ -8,4 +8,4 @@ node_js:
 - "iojs-3"
 - "4"
 - "5"
-script: "node test.js"
+script: "npm test"
