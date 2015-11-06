@@ -4,6 +4,8 @@ console.log('process.cwd()');
 console.log(process.cwd());
 console.log('process.env.PATH');
 console.log(process.env.PATH);
+console.log('process.env.PATHEXT');
+console.log(process.env.PATHEXT);
 var cmd = (iswin()) ? 'npm.cmd' : 'npm';
 var touch1 = spawn(cmd, ['run', 'touch1', '--verbose'], { stdio: 'inherit' });
 touch1.on('error', function(err) {
