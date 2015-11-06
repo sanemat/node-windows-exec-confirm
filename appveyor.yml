@@ -21,6 +21,7 @@ install:
 - node --version
 - npm --version
 - npm install
+- where npm
 
 # build
 build: off

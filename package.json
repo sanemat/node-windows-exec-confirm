@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "iswin": "0.0.2",
     "touch": "^1.0.0"
   },
   "scripts": {
-    "test": "npm run touch1",
+    "test": "npm run touch1 --verbose && node test.js",
     "touch1": "touch foo.txt"
   }
 }
